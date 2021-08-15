@@ -5,8 +5,8 @@
 #include <stdlib.h>
 
 typedef struct complex {
-    float re;
-    float im;
+float re;
+float im;
 } complex;
 
 void display_complex_number(complex c);
