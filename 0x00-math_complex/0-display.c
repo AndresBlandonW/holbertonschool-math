@@ -13,8 +13,7 @@ if (c.re == 0)
 
 if (c.im == 0)
 printf("0\n");
-
-if (c.im < 0)
+else if (c.im < 0)
 printf("- %.9gi\n", c.im * (-1));
 else
 printf("%.9g\n", c.im);
