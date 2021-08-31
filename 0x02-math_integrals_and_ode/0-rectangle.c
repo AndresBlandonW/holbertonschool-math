@@ -1,6 +1,12 @@
 #include "rectangle.h"
 #include <math.h>
 
+/**
+ * rectangle_method - Rectangle method
+ * @a: data a
+ * @b: data b
+ * Return: the rectangle approx integral
+ */
 double rectangle_method(double a, double b, int steps )
 {
 
